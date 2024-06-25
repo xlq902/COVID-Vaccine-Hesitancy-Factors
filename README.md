@@ -1,7 +1,7 @@
 # COVID-Vaccine-Hesitancy-Factors
 This project investigates trends between COVID vaccine hesitancy and socioeconomic factors using (multiple) linear regression using R and ggplot2. 
 
-= Data sources
+## Data sources
 
 - Vaccine hesitancy data is public domain, from the CDC: https://data.cdc.gov/Vaccinations/Vaccine-Hesitancy-for-COVID-19-County-and-local-es/q9mh-h2tw/about_data.
 
