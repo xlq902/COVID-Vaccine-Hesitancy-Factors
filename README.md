@@ -1,4 +1,4 @@
-# COVID-Vaccine-Hesitancy-Factors
+# COVID Vaccine Hesitancy Factors
 This project investigates trends between COVID vaccine hesitancy and socioeconomic factors using (multiple) linear regression using R and ggplot2. 
 
 ## Data sources
