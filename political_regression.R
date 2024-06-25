@@ -1,7 +1,5 @@
 # initialization
 library("tidyverse")
-library("ggthemes")
-library("RPMG")
 
 # set working directory
 setwd("C:/Users/tetrg/R/COVID vaccine hesitancy data")
@@ -63,5 +61,4 @@ ggplot(data, aes(x = pvote, y = Estimated.hesitant * 100, color = pvote)) +
         y = "Estimated % of population vaccine hesitant, April 2021", # % because the formula as.numeric(Estimated.strongly.hesitant) * 100 first converts strongly hesitant to numeric, then multiplies by 100%
         x = "Republican percentage of vote in 2020 presidential election" # bad title lol
     )
-    # TODO: calculate statistical measures for this data. ie. t-value, p-value, etc.
     # TODO: next steps: multiple linear regression. consider other variables, such as age, gender, etc.?
